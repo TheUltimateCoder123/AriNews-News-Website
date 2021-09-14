@@ -10,8 +10,6 @@ import Navbar from './components/Navbar';
 import News from './components/News';
 import LoadingBar from 'react-top-loading-bar'
 
-
-
 export default class App extends Component {
   apiKey=process.env.REACT_APP_NEWS_API;
   state={
