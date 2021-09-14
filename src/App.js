@@ -11,7 +11,9 @@ import News from './components/News';
 import LoadingBar from 'react-top-loading-bar'
 
 export default class App extends Component {
-  apiKey=process.env.REACT_APP_NEWS_API;
+//   apiKey=process.env.REACT_APP_NEWS_API;
+  apiKey="6c75d1993b874baba039c549d4da479a";
+  
   state={
     progress:0
   
